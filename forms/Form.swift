@@ -83,7 +83,7 @@ protocol CellConfigurator {
 }
 
 // Erases the type of the cell
-class AnyCellConfigurator: CellConfigurator {
+private class AnyCellConfigurator: CellConfigurator {
     let _configure: (UITableViewCell) -> ()
     let cellType: UITableViewCell.Type
     
