@@ -29,7 +29,7 @@ class MyField: Field {
     }
 }
 
-// The simplest field. Represents a cell with a dataSource and delegate
+// A more complex field. Represents a cell with a dataSource and delegate
 class MyOtherField: Field {
     struct DataSource {
         let title: String
